@@ -19,4 +19,4 @@ The way this works is:
 2. generate the colormap using `colors, cmap = cmp.get_colors_from_image(image, ncolors, n_prune)`. This returns both colors that can be used directly for lines etc. or a cmap object that can be used to color contours, 2d/3d plots and more.
 3. visualise the image and colormap using `cmp.plt_image(image);cmp.plt_cmap(colors);` That's it!
 
-There're a few demo images below, but feel free to try this out with your own images at the end of this tutorial (if you're running it on google colab). Play around with the parameters till you find something that works best for you! If you create any cool palettes using this, please attribute this package, and let me know!
+There're a few examples in the [demo Colab notebook](https://colab.research.google.com/github/kartheikiyer/the_colormap_projekt/blob/main/colormap_projekt_demo.ipynb), but feel free to try this out with your own images at the end of this tutorial (if you're running it on google colab). Play around with the parameters till you find something that works best for you! If you create any cool palettes using this, please attribute this package, and let me know!
